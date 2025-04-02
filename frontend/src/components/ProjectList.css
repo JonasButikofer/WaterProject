@@ -1,0 +1,99 @@
+/* MyComponent.css */
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.heading {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.select {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.loading {
+    font-size: 18px;
+    color: #007bff;
+}
+
+.error {
+    font-size: 18px;
+    color: red;
+}
+
+.projectCard {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 10px auto;
+    border-left: 5px solid #0aa7c6;
+    text-align: left;
+}
+
+.cardTitle {
+    font-size: 20px;
+    color: #0e3f68;
+    margin-bottom: 10px;
+}
+
+.projectDetails {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.noProjects {
+    font-size: 18px;
+    color: #666;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pageButton {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.activePageButton {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0aa7c6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}

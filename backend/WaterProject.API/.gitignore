@@ -1,0 +1,16 @@
+﻿obj/
+.vs/
+bin/
+
+*.suo
+
+*.user
+
+*.sln.docstates
+
+.idea/
+
+*.DotSettings.user
+*.log
+
+*.tlog
