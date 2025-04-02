@@ -1,6 +1,6 @@
 import { useState, useEffect, SetStateAction } from "react";
 import { Project } from "../types/Project";
-import CookieConsent from "react-cookie-consent";
+// import CookieConsent from "react-cookie-consent";
 import { useNavigate } from "react-router-dom";
 import { fetchProjects } from "../api/ProjectsApi";
 import './ProjectList.css';
