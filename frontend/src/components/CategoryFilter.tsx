@@ -10,7 +10,7 @@ function CategoryFilter({selectedCategories, setSelectedCategories}:
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const response = await fetch('https://localhost:5001/Water/GetProjectTypes');
+                const response = await fetch("https://victorious-island-031ca3a1e.6.azurestaticapps.net");
                 const data = await response.json();
                 console.log("Fetched data: ", data);
                 setCategories(data);
